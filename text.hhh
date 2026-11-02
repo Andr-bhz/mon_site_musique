@@ -1,0 +1,4 @@
+const btn = document.getelemetId('btn')
+add.eventListener('click' => {
+    document.body.classList.toggle('dark-mode)
+})

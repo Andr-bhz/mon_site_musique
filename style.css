@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    color:aliceblue;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    Font-size: 20px;
+}
+img{
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+
+}
+audio{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #803838;
+}
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+}
