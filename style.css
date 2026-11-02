@@ -30,3 +30,24 @@ body.dark-mode {
     background-color: #1a1a1a;
     color: #f1f1f1;
 }
+a{
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    transition: 0.5s;
+    color: #180b09;
+    text-decoration: underline;
+}
+h1{
+ FOnt-size: 30px;
+}
+Footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
