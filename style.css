@@ -4,12 +4,10 @@
     box-sizing:border-box;
 }
 body{
-    color:aliceblue;
+    background-color:#d6caca;
+    color:rgb(11, 12, 12);
     transition: background-color 0.5s ease, color 0.5s ease;
     font-family:Arial, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
-    Font-size: 20px;
 }
 img{
     justify-content: center;
@@ -43,6 +41,7 @@ h1{
  FOnt-size: 30px;
 }
 Footer{
+    border-top: 1px solid #0c0a0a;
     background-color: #333;
     color: #fff;
     text-align: center;

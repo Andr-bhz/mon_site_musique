@@ -31,6 +31,6 @@ session_start();
     <input type="submit" value="Submit">
 </body>
 <footer id ="contact">
-    <p>&copy; 2023 Mon Site. Tous droits réservés.</p>
+    <p>&copy; <?=  date('Y');?> Mon Site. Tous droits réservés.</p>
 </footer>
 </html>
