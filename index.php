@@ -2,9 +2,11 @@
 session_start();
 
 $ouvert = date('H');
-$Fermer = date('H') > 22;
+for($i=0;$i>22;$i--){
+    $Fermer = date('H') ;
+}
 $date = date('Y');
-$mois = htmlspecialchars('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
+$mois = 'janvier,Fevrier,mars,avril,mai,juin,juillet,aout,septembre ,octobre, novembre, decembre';
     echo $ouvert;
 // foreach ($mois as $key) {
 //     echo "$key <br>";
