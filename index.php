@@ -1,9 +1,11 @@
 <?php 
+session_start();
+
 $ouvert = date('H');
 $Fermer = date('H') > 22;
 $date = date('Y');
-$mois = "<del>moi</del>"('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
-
+$mois = htmlspecialchars('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
+    echo $ouvert;
 // foreach ($mois as $key) {
 //     echo "$key <br>";
 // }
