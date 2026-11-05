@@ -1,8 +1,14 @@
 <?php 
+$ouvert = date('H');
+$Fermer = date('H') > 22;
 $date = date('Y');
-$mois = array('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
-foreach ($mois as $key ) {
-    echo "$key <br>";
+$mois = count('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
+
+// foreach ($mois as $key) {
+//     echo "$key <br>";
+// }
+Function heure($ouvert,$Fermer){
+    return $ouvert;
 }
 ?>
 <!DOCTYPE html>
@@ -28,7 +34,7 @@ foreach ($mois as $key ) {
     <button id ="btn">changer de mode</button>
     <script src="./script.js"></script>
     <div>
-        <input type="radio" id="dark-theme" name="theme" value="dark">
+        <input type="radio" id="dark-theme" name="theme"  value="dark">
         <label for="dark-theme">Dark Theme</label>
     </div>
     <input type="submit" value="Submit">
