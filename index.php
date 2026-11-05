@@ -2,7 +2,7 @@
 $ouvert = date('H');
 $Fermer = date('H') > 22;
 $date = date('Y');
-$mois = count('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
+$mois = "<del>moi</del>"('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
 
 // foreach ($mois as $key) {
 //     echo "$key <br>";
