@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 $nom=var_dump($_SESSION[""]);
 $email=Filter_var("andre@example.com", FILTER_SANITIZE_EMAIL);
 
@@ -38,4 +38,27 @@ else{
         <button type="submit">Submit</button>
     </Form>
 </body>
-</html>
+</html> -->
+<?php
+$cars = array("Volvo", "BMW", "Toyota"); 
+
+;var_dump($cars);
+$vrai = $_POST['chiffre'];
+if($vrai <= 50 ){
+	echo "le nombre exacte est superieur a la valeur ecrit ";
+}
+if($vrai >= 55){
+	echo "le nombre exacte est inferieur a la valeur ecrit ";
+    }
+elseif($vrai == 54 ){
+	echo "vous avez trouver la vrai valeur";
+}
+?>
+
+</pre>
+<form>
+<div>
+	<input type="chiffre" id="nombre" name="chiffre" placeholder="Entrer un chifffre entre 0 et 100" >
+</div>
+<button type="submit">Envoyer</button>
+</form>

@@ -9,6 +9,10 @@ body{
     transition: background-color 0.5s ease, color 0.5s ease;
     font-family:Arial, Helvetica, sans-serif;
 }
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+}
 img{
     justify-content: center;
     width: 90%;
@@ -24,10 +28,7 @@ audio{
     padding: 10px;
     background-color: #803838;
 }
-body.dark-mode {
-    background-color: #1a1a1a;
-    color: #f1f1f1;
-}
+
 a{
     text-decoration: none;
     color: #007bff;
@@ -35,7 +36,7 @@ a{
 a:hover {
     transition: 0.5s;
     color: #180b09;
-    text-decoration: underline;
+    text-decoration: underline 1s;
 }
 h1{
  FOnt-size: 30px;
@@ -45,8 +46,7 @@ Footer{
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
+    padding: 10px 0px;
+    bottom: 0px;
     width: 100%;
 }

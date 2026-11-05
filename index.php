@@ -8,7 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <header>
     <h1>Bienvenue sur mon site</h1>
@@ -29,8 +29,6 @@ session_start();
         <label for="dark-theme">Dark Theme</label>
     </div>
     <input type="submit" value="Submit">
-</body>
-<footer id ="contact">
-    <p>&copy; <?=  date('Y');?> Mon Site. Tous droits réservés.</p>
-</footer>
-</html>
+
+<?php require 'Footer.php'; ?> 
+
