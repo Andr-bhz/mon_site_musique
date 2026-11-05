@@ -1,6 +1,9 @@
 <?php 
-session_start();
-
+$date = date('Y');
+$mois = array('janvier','Fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre');
+foreach ($mois as $key ) {
+    echo "$key <br>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <header>
     <h1>Bienvenue sur mon site</h1>
