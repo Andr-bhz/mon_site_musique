@@ -1,6 +1,8 @@
 <?php 
-session_start();
-
+// session_start();
+// if () {
+//     # code...
+// }
 $ouvert = date('H');
 for($i=0;$i>22;$i--){
     $Fermer = date('H') ;
