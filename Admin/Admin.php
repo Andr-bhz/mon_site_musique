@@ -6,7 +6,7 @@ echo "$nom <br>";
 echo "$email <br>";
 
 ?>
-
+<link rel="stylesheet" href="Admin.css">
 <Form action="./conFig/under.php"  method="POST"<?php htmlspecialchars($_POST['name'] && $_POST['email']); ?>>
     <div>
         <label for="nom ">NOM:</label>
@@ -25,4 +25,6 @@ echo "$email <br>";
     </div>
         <button type="submit">Envoyer</button>
 </Form>
-<script> alert('bienvenue')</script>
+<script> 
+
+alert('bienvenue')</script>
