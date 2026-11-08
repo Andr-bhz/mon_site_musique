@@ -1,4 +1,4 @@
-const pn = document.getElementById('pn')
+ const pn = document.getElementById('pn')
     pn.addEventListener('click ' , ()  => {
         document.body.classList.toggle('dark-mode')
     })

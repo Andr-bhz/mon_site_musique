@@ -1,13 +1,22 @@
-
 <?php 
-$nom = $_POST['name'];
-$email =$_POST['email'];
-echo "$nom <br>";
-echo "$email <br>";
+$cookie_name = 'username';
+$cookie_value = 'john Doe';
+setcookie($cookie_name,$cookie_value,time() + (86400 * 2) , '/')
 
-?>
-<link rel="stylesheet" href="Admin.css">
-<Form action="./conFig/under.php"  method="POST"<?php htmlspecialchars($_POST['name'] && $_POST['email']); ?>>
+// if (isset($_COOKIE[$cookie_name])) {
+//     echo "cookie '" .  $cookie_name  .  "' is set!<br>";
+//     echo "Value is: " . $_COOKIE[$cookie_name];
+// }
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MON_SITE_MUSIQUE</title>
+    <link rel="stylesheet" href="./Admin.css">
+</head>
+<body>    
+<Form action="./conFig/under.php"  method="POST">>
     <div>
         <label for="nom ">NOM:</label>
         <input type="text" name="name" id="name" placeholder="Entrer votre nom">
@@ -24,7 +33,15 @@ echo "$email <br>";
         <input type="radio" name="Femme" id="Femme" value="Femme">
     </div>
         <button type="submit">Envoyer</button>
-</Form>
-<script> 
 
-alert('bienvenue')</script>
+</Form>
+<button id="pn">changer de mode</button>
+<script>
+    const pn = document.getElementById('pn')
+    pn.addEventListener('click ' , ()  => {
+        document.body.classList.toggle('dark-mode')
+    })
+const click = document.getElementById('click');
+</script>
+</body>
+</html>
