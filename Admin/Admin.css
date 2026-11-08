@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+    color:black;
+    size:30px;
+}
+body.dark-mode{
+    background-color: black;
+    color:white;
+    size:20px;
+}
