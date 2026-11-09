@@ -7,7 +7,23 @@ setcookie($cookie_name,$cookie_value,time() + (86400 * 2) , '/')
 //     echo "cookie '" .  $cookie_name  .  "' is set!<br>";
 //     echo "Value is: " . $_COOKIE[$cookie_name];
 // }
-?><!DOCTYPE html>
+?>
+<?php
+if(empty($_POST['name'])) {
+    echo "veuiller remplir le nom";
+}
+else{
+    echo "binevenue";
+}
+?>
+?>
+
+<?php
+$email = $_POST['email'];
+echo json_encode($email);
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
