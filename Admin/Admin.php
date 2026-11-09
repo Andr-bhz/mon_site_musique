@@ -13,7 +13,7 @@ if(empty($_POST['name'])) {
     echo "veuiller remplir le nom";
 }
 else{
-    echo "binevenue";
+    echo "bienvenue";
 }
 ?>
 ?>
