@@ -3,6 +3,15 @@ session_start();
 $title = "";
 
 ?>
+<?php 
+$nom =$_POST['valider'];
+$number=$_POST['number'];
+
+if ($number  ) {
+    # code...
+}
+
+?>
 <h1><?php echo 'BIENVENUE'; ?></h1>
 <span class="hero"><p>merci pour votre coniance nous vous presentons nos produits suivants <br>
 <ol>
