@@ -16,5 +16,10 @@ $title = "";
 </ol>
 </p>
 </span>
-
-  
+<div>
+    <input type="text" name="valider" id="valider" placeholder="Entrer votre nom">
+</div>
+<div>
+    <input type="number" name="nombre" id="nombre" placeholder="Entrer le nombre">
+</div>
+<button type="submit">Valider</button>
